@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+:root {
+  --font-color: #ffffff;
+  --bg-btn: #c5dff8;
+  --font-nav: "Lato", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 100%;
+  max-height: 100vh;
+}
+
+.logo {
+  .fil1 {
+    fill: var(--font-color);
+  }
+}
+
+.contMain {
+  width: 100%;
+  height: 150vh;
+  padding-top: 200px;
+  background-color: rgb(62, 63, 63);
+}
+
+.mContainer {
+  width: 100%;
+  height: 100%;
+  background: rgb(183, 19, 55);
+  background: radial-gradient(
+    circle,
+    rgba(183, 19, 55, 1) 0%,
+    rgba(186, 7, 176, 1) 100%
+  );
+}
+
+.mainhero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+}
+
+.left {
+  margin: auto;
+  width: 500px;
+}
+
+.left .jdl {
+  color: var(--font-color);
+  font-family: var(--font-nav);
+  font-size: 74px;
+  font-weight: 900;
+  line-height: normal;
+  text-shadow: 0 0 70px #4a55a2;
+}
+
+.left p {
+  padding: 10px;
+  text-align: justify;
+  font-family: var(--font-nav);
+  color: var(--font-color);
+  font-size: 16px;
+  margin: auto;
+  line-height: normal;
+}
+
+.cta {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 330px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-cta {
+  display: flex;
+  width: 140px;
+  height: 40px;
+  justify-content: space-around;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 15px;
+  border: 1px solid white;
+  font-family: var(--font-nav);
+  transition: 0.3s;
+}
+
+.btn-cta a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-cta:hover {
+  box-shadow: 0px 0px 20px rgb(74, 74, 80);
+  border: none;
+}
